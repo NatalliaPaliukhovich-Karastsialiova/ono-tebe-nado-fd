@@ -15,7 +15,7 @@
   display: flex;
   gap: 13px;
   font-size: 18px;
-  line-height: 21.13px;
+  line-height: 1.174em;
   list-style-type: none;
 }
 
@@ -61,7 +61,7 @@
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 1.35em;
 }
 
 .text-underline {
@@ -98,7 +98,7 @@
   color: var(--white-color);
   font-weight: 700;
   font-size: 100px;
-  line-height: 115px;
+  line-height: 1.15em;
   text-transform: uppercase;
 }
 
@@ -128,7 +128,7 @@
 .description__text {
   color: var(--white-color);
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27em;
   text-transform: uppercase;
   word-spacing: 0.85em;
 }
@@ -139,7 +139,7 @@
   color: var(--white-color);
   font-weight: 500;
   font-size: 22px;
-  line-height: 25.83px;
+  line-height: 1.174em;
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
@@ -152,7 +152,7 @@
 .section-title {
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 1.174em;
   text-transform: uppercase;
 }
 
@@ -205,7 +205,7 @@
   z-index: 2;
   font-weight: 700;
   font-size: 22px;
-  line-height: 26.4px;
+  line-height: 1.2em;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-transform: uppercase;
@@ -214,13 +214,13 @@
 .card-text {
   z-index: 2;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2em;
 }
 
 .lots__look-more-link {
   padding-left: 40px;
   font-size: 20px;
-  line-height: 23.48px;
+  line-height: 1.174em;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -255,7 +255,7 @@
 
 .about__text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2em;
 }
 
 .about__text:first-of-type {
@@ -281,7 +281,7 @@
 
 .footer__menu__list {
   font-size: 18px;
-  line-height: 21.13px;
+  line-height: 1.174em;
   text-align: center;
   list-style-type: none;
 }
