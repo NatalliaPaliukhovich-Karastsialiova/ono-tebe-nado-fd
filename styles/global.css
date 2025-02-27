@@ -27,6 +27,7 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -35,4 +36,14 @@ img {
 
 button {
   font: inherit;
+}
+
+.side-padding-big {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.side-padding-small {
+  padding-right: 24px;
+  padding-left: 24px;
 }
