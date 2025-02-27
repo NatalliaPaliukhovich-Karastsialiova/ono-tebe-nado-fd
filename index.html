@@ -14,17 +14,17 @@
       <nav>
         <ul class="menu__list">
           <li class="menu__list__item">
-            <a class="menu__list__item__link menu__list__item__link-active" href="">главная</a>
+            <a class="menu__list__item__link menu__list__item__link-active" href="#cover">главная</a>
           </li>
           <li class="menu__list__item">
-            <a class="menu__list__item__link" href="">посмотреть лоты</a>
+            <a class="menu__list__item__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="menu__list__item">
-            <a class="menu__list__item__link" href="">об аукционе</a>
+            <a class="menu__list__item__link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="logo">
+      <a class="logo" href="#0">
         <img class="logo__img" src="images/logo-black.svg" alt="Логотип">
       </a>
       <address class="address">
@@ -35,7 +35,7 @@
       </address>
     </header>
     <main class="main">
-      <section class="cover side-padding-big">
+      <section class="cover side-padding-big" id="cover">
         <h1 class="cover__title">
           <span class="cover__title__row">оно</span>
           <span class="cover__title__row text-align-center">тебе</span>
@@ -47,11 +47,11 @@
         </div>
         <div class="overlay"></div>
       </section>
-      <section class="lots side-padding-small">
+      <section class="lots side-padding-small" id="lots">
         <h2 class="section-title lots-title">Лоты</h2>
         <ul class="cards-list">
           <li class="cards-list__item">
-            <a href="">
+            <a href="#0">
               <article class="card">
                 <h3 class="card-title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
@@ -60,7 +60,7 @@
             </a>
           </li>
           <li class="cards-list__item">
-            <a href="">
+            <a href="#0">
               <article class="card">
                 <h3 class="card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
@@ -69,7 +69,7 @@
             </a>
           </li>
           <li class="cards-list__item">
-            <a href="">
+            <a href="#0">
               <article class="card">
                 <h3 class="card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
@@ -78,9 +78,9 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link">посмотреть больше</a>
+        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
-      <section class="about side-padding-small">
+      <section class="about side-padding-small" id="about">
         <div class="about__column">
           <div class="about__logo">
             <img class="about__logo-image" src="images/logo-white.svg" alt="Логотип">
@@ -106,25 +106,25 @@
       <nav class="footer__menu">
         <ul class="footer__menu__list">
           <li class="footer__menu__list__item">
-            <a class="footer__menu__list__item__link footer__menu__list__item__link-active" href="">главная</a>
+            <a class="footer__menu__list__item__link footer__menu__list__item__link-active" href="#cover">главная</a>
           </li>
           <li class="footer__menu__list__item">
-            <a class="footer__menu__list__item__link" href="">посмотреть&nbsp;лоты</a>
+            <a class="footer__menu__list__item__link" href="#lots">посмотреть&nbsp;лоты</a>
           </li>
           <li class="footer__menu__list__item">
-            <a class="footer__menu__list__item__link" href="">об&nbsp;аукционе</a>
+            <a class="footer__menu__list__item__link" href="#about">об&nbsp;аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social__list">
         <li class="footer__social__list__item">
-          <a></a>
+          <a class="footer__social__list__item__link" href="https://www.youtube.com" target="_blank"></a>
         </li>
         <li class="footer__social__list__item">
-          <a></a>
+          <a class="footer__social__list__item__link" href="https://vk.com" target="_blank"></a>
         </li>
         <li class="footer__social__list__item">
-          <a></a>
+          <a class="footer__social__list__item__link" href="https://www.pinterest.com" target="_blank"></a>
         </li>
       </ul>
     </footer>

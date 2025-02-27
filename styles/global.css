@@ -8,6 +8,8 @@ body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 h1,
@@ -46,4 +48,8 @@ button {
 .side-padding-small {
   padding-right: 24px;
   padding-left: 24px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
