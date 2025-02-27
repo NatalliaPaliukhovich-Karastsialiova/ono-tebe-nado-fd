@@ -235,12 +235,9 @@
 }
 
 .about__text {
+  margin-top: 24px;
   font-size: 20px;
   line-height: 1.2em;
-}
-
-.about__text {
-  margin-top: 24px;
 }
 
 .about__text:first-of-type {
