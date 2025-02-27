@@ -45,11 +45,10 @@
 }
 
 .logo {
-  background: url("../images/logo-black.svg") no-repeat center center;
-  background-size: auto;
   display: block;
-  width: 148px;
+  width: 135px;
   height: 105px;
+  cursor: pointer;
 }
 
 .address {
@@ -86,16 +85,6 @@
   z-index: 1;
 }
 
-.cover__title {
-  color: white;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 115px;
-  text-transform: uppercase;
-  margin-bottom: 106px;
-  z-index: 2;
-}
-
 span::after {
   content: " ";
   letter-spacing: 0;
@@ -105,6 +94,13 @@ span::after {
   display: flex;
   gap: 20px;
   flex-direction: column;
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  text-transform: uppercase;
+  margin-bottom: 106px;
+  z-index: 2;
 }
 
 .cover__title__row {
