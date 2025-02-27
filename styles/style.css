@@ -35,10 +35,6 @@
   padding-right: 0;
 }
 
-.menu__list__item:first-child {
-  list-style-type: none;
-}
-
 .logo {
   display: block;
   width: 135px;
